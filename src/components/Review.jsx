@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import reviewlItems from "../assets/data/DataReview";
-import { icons } from '../assets/icons';
+import { Icons } from '../assets/Icons';
 
 const imageFiles = import.meta.glob('../assets/image/review/*.{jpg,png}', { eager: true });
 const images = Object.fromEntries(
@@ -19,9 +19,9 @@ const Review = () => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       if (i < rating) {
-        stars.push(<icons.IoIosStar key={i} className="text-yellow-500 inline-block" />);
+        stars.push(<Icons.IoIosStar key={i} className="text-yellow-500 inline-block" />);
       } else {
-        stars.push(<icons.IoIosStarOutline key={i} className="text-yellow-500 inline-block" />);
+        stars.push(<Icons.IoIosStarOutline key={i} className="text-yellow-500 inline-block" />);
       }
     }
     return stars;
@@ -73,9 +73,9 @@ const Review = () => {
             onClick={() => setShowAll(!showAll)}
             className="bg-green-600 text-white px-5 md:px-20 py-4 rounded-md hover:bg-green-800 transition flex items-center justify-center gap-5 mx-auto"
           >
-            {showAll ? <icons.FaAngleDoubleUp /> : <icons.FaAngleDoubleDown />}
+            {showAll ? <Icons.FaAngleDoubleUp /> : <Icons.FaAngleDoubleDown />}
             {showAll ? 'Tampilkan Ulasan Teratas' : 'Tampilkan Semua'}
-            {showAll ? <icons.FaAngleDoubleUp /> : <icons.FaAngleDoubleDown />}
+            {showAll ? <Icons.FaAngleDoubleUp /> : <Icons.FaAngleDoubleDown />}
           </button>
         </div>
       </div>

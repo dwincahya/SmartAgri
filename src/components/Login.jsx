@@ -1,5 +1,5 @@
 import React from 'react';
-import { icons } from '../assets/Icons';
+import { Icons } from '../assets/Icons';
 import useHandleLinkClick from './function/handleLinkClick';
 
 const Login = () => {
@@ -10,7 +10,7 @@ const Login = () => {
         <div className="max-w-xl w-full">
           <div className="flex items-center mb-4">
             <button className="text-white">
-              <icons.IoMdArrowBack className="h-10 w-auto" onClick={() => handleLinkClick("back")}/>
+              <Icons.IoMdArrowBack className="h-10 w-auto" onClick={() => handleLinkClick("back")}/>
             </button>
           </div>
 

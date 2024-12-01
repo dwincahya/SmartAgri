@@ -1,4 +1,4 @@
-import { icons } from '../assets/icons';
+import { Icons } from '../assets/Icons';
 
 const imageFiles = import.meta.glob('../assets/image/news/*.{jpg,png}', { eager: true });
 const images = Object.fromEntries(
@@ -17,7 +17,7 @@ export default function NewsHero({ newsItem }) {
                         {newsItem.title}
                     </h2>
                     <div className="flex items-center justify-center md:justify-start mb-">
-                        <icons.CiLocationOn className="mr-2 text-lg md:text-xl lg:text-2xl" />
+                        <Icons.CiLocationOn className="mr-2 text-lg md:text-xl lg:text-2xl" />
                         <p className="text-sm md:text-base lg:text-lg xl:text-xl font-Roboto text-white">
                             Lokasi
                         </p>

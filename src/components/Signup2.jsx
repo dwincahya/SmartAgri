@@ -1,5 +1,5 @@
 import React from 'react';
-import { icons } from '../assets/Icons';
+import { Icons } from '../assets/Icons';
 import useHandleLinkClick from './function/handleLinkClick';
 
 const Signup2 = () => {
@@ -10,7 +10,7 @@ const Signup2 = () => {
         <div className="max-w-xl w-full">
           <div className="mb-12 text-white">
             <button className="">
-              <icons.IoMdArrowBack className="h-10 w-auto" onClick={() => handleLinkClick("back")}/>
+              <Icons.IoMdArrowBack className="h-10 w-auto" onClick={() => handleLinkClick("back")}/>
             </button>
             <h1 className='text-4xl font-bold'>Lengkapi Data Akun</h1>
           </div>

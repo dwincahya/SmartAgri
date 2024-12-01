@@ -6,7 +6,7 @@ import { LiaLayerGroupSolid } from "react-icons/lia";
 import { LuBrainCircuit, LuMonitorCheck } from "react-icons/lu";
 import { RiDashboardFill } from "react-icons/ri";
 
-export const icons = {
+export const Icons = {
     BsHouseGearFill,
     CiLocationOn,
     FaAngleDoubleDown,

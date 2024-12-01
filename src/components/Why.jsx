@@ -1,18 +1,18 @@
-import { icons } from '../assets/icons';
+import { Icons } from '../assets/Icons';
 
 const serviceData = [
     {
-        Icon: icons.LuMonitorCheck,
+        Icon: Icons.LuMonitorCheck,
         title: "Sistem Monitoring",
         description: "Membantu memantau kesehatan lahan dan perkembangan tanaman secara digital",
     },
     {
-        Icon: icons.FaChartBar,
+        Icon: Icons.FaChartBar,
         title: "Statistik Hasil",
         description: "Membantu memantau statistik penjualan dan statistik hasil panen yang sudah ada",
     },
     {
-        Icon: icons.BsHouseGearFill,
+        Icon: Icons.BsHouseGearFill,
         title: "Management",
         description: "Membantu memanagemen penggunaan pupuk dan bibit",
     }

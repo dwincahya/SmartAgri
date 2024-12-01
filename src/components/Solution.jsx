@@ -1,18 +1,18 @@
-import { icons } from '../assets/icons';
+import { Icons } from '../assets/Icons';
 
 const SolutionData = [
     {
-        Icon: icons.RiDashboardFill,
+        Icon: Icons.RiDashboardFill,
         title: "Dashboard Intuitif",
         description: "Dashboard yang memudahkan dalam memonitoring beberapa lahan dalam dashboard yang simpel",
     },
     {
-        Icon: icons.LiaLayerGroupSolid,
+        Icon: Icons.LiaLayerGroupSolid,
         title: "Land Grouping",
         description: "Kelompokkan lahan anda menjadi sebuah kelompok yang memudahkan anda dalam memantau",
     },
     {
-        Icon: icons.LuBrainCircuit,
+        Icon: Icons.LuBrainCircuit,
         title: "IoT Integration",
         description: "Pantau kesehatan lahan dan kebun anda secara real-time tanpa ada jeda",
     },
