@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Roboto: ['Roboto']
+        Roboto: ['Roboto'],
+        Poppins: ['Poppins']
       },
       colors: {
         greenPlant: '#059212',
-        grayCus: '#D9D9D9'
+        grayCus: '#D9D9D9',
+        greenDark:  '#12372A'
       }
     },
   },
